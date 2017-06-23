@@ -53,18 +53,29 @@ body {margin:0;}
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+    
+<style type="text/css">
+* {
+margin:0;
+padding:0;
 }
 #nav {
+height:3.2em;
 text-align:center;
+background:#A6D2FF;
+border-top:2px solid;
+border-bottom:2px solid;
+margin-bottom:30px;
 }
 #nav ul {
 display:inline-block;
 list-style:none; 
 }
-* html #nav ul { /* Target IE6 */
+* html #nav ul {
 display:inline;
+padding-left:2px;
 }
-*+html #nav ul { /* Target IE7 */
+*+html #nav ul {
 display:inline;
 }
 #nav li {
@@ -72,9 +83,20 @@ display:inline;
 }
 #nav a {
 float:left;
+color:#000;
+height:1.2em;
+line-height:1.2em;
 text-decoration:none; 
-padding:0 30px; /* variable width */
+margin:1em 0 0 -2px;
+padding:0 30px; 
+font-weight:bold;
+border-left:2px solid #000;
+border-right:2px solid #000;
 }
+#nav a:hover, #nav a:focus {
+color:#fff;
+}
+
     
 </style>
 </head>
@@ -82,16 +104,16 @@ padding:0 30px; /* variable width */
 <body style="background-color:#FFFFFF;">
  
 
-<img src="https://68.media.tumblr.com/3d14684e97f988e1dbfddd476a5709d4/tumblr_os0qoiJjYX1v64ksyo1_500h.jpg" alt="Hi" style="width:811px;height:209px align="middle" hspace="250;">    
+<img src="https://68.media.tumblr.com/3d14684e97f988e1dbfddd476a5709d4/tumblr_os0qoiJjYX1v64ksyo1_500h.jpg" alt="Hi" style="width:811px;height:209px align="middle" hspace="260;">    
     
 
 <div id="nav">
 <ul>
   <li><a href="#">HOME</a></li>
-  <li><a href="#">CAPABILITIES</a></li>
-  <li><a href="#">ABOUT US</a></li>
+  <li><a href="#">About Me</a></li>
+  <li><a href="#">BlogS</a></li>
   <li><a href="#">RFQ</a></li>
-  <li><a href="#">CONTACT US</a></li>
+  <li><a href="#">CONTACT ME</a></li>
 </ul>
 </div>
 
